@@ -41,6 +41,7 @@ GEM
     arel (6.0.4)
     binding_of_caller (0.7.2)
       debug_inspector (>= 0.0.1)
+    bower-rails (0.10.0)
     builder (3.2.3)
     capybara (2.14.0)
       addressable
@@ -176,6 +177,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bower-rails
   capybara
   coffee-rails (~> 4.1.0)
   database_cleaner
