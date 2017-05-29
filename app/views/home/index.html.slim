@@ -1,0 +1,9 @@
+div.container-fluid(ng-app="myRecipes")
+  div.panel.panel-success
+    div.panel-heading
+      h1(ng-if="name") Hello, {{name}}
+
+    div.panel-body
+      form.form-inline
+        div.form-group
+          input.form-control(type="text" placeholder="Enter your name" autofocus ng-model="name")
